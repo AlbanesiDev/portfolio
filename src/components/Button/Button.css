@@ -1,0 +1,16 @@
+.button {
+  background-color: transparent;
+  color: var(--color-font-primary);
+  font-weight: 700;
+  font-size: 1.25rem;
+  padding: 1rem 2rem;
+  border: var(--border);
+  transition: var(--transition);
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.button:hover {
+  background-color: var(--color-btn-hover);
+  color: var(--color-font-secondary);
+}
