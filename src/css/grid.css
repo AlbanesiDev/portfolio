@@ -1,9 +1,9 @@
 .container {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
+  max-width: 1400px;
+  padding: 0 1.5rem;
+  margin-inline: auto;
 }
-
 @media only screen and (min-width: 33.75rem) {
   .container {
     width: 80%;
@@ -11,25 +11,14 @@
 }
 @media only screen and (min-width: 60rem) {
   .container {
-    width: 75%;
+    width: 80%;
     max-width: 65rem;
   }
 }
 
-.container-fluid {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-@media only screen and (min-width: 33.75rem) {
-  .container-fluid {
-    width: 80%;
-  }
-}
-@media only screen and (min-width: 60rem) {
-  .container-fluid {
-    width: 90%;
-    max-width: 120rem;
-  }
+.container_wide {
+  width: 100%;
+  max-width: 1400px;
+  padding: 0 1.5rem;
+  margin-inline: auto;
 }

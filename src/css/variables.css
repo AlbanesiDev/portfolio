@@ -1,7 +1,7 @@
 :root {
   --color-primary: #e3f7f7;
   --color-secondary: #0b0a0a;
-  --color-tertiary: #616161;
+  --color-tertiary: #9ca5a5;
 
   --color-accent-red: #ff6464;
   --color-accent-green: #0b0a0a;
@@ -13,10 +13,11 @@
   --color-btn-hover: #e3f7f7;
   --color-btn-active: #b8d1d1;
 
-  --color-btn-link: rgba(255, 255, 255, 0.1);
-  --color-btn-link-hover: rgba(255, 106, 0, 0.8);
+  --color-btn-link: rgb(255, 145, 0);
+  --color-btn-link-hover: rgb(255, 106, 0);
   --color-btn-link-active: rgba(255, 106, 0, 1);
 
+  --br-sm: 0.5rem;
   --border: 1px solid var(--color-primary);
   --border-card: 2px solid var(--color-primary);
   --border-input: 2px solid rgba(227, 247, 247, 0.5);
@@ -24,5 +25,12 @@
 
   --transition: all 0.3s ease-in-out;
 
-  --font-size-description: 1.25rem;
+  --fs-sm: clamp(0.8rem, -0.05vi + 0.81rem, 0.75rem);
+  --fs-base: clamp(1rem, 0vi + 1rem, 1rem);
+  --fs-md: clamp(1.25rem, 0.09vi + 1.23rem, 1.33rem);
+  --fs-lg: clamp(1.56rem, 0.23vi + 1.51rem, 1.78rem);
+  --fs-xl: clamp(1.95rem, 0.44vi + 1.84rem, 2.37rem);
+  --fs-xxl: clamp(2.44rem, 0.75vi + 2.25rem, 3.16rem);
+  --fs-xxxl: clamp(3.05rem, 1.22vi + 2.75rem, 4.21rem);
+  --fs-title: clamp(3rem, 10vi + 10.17rem, 10rem);
 }
