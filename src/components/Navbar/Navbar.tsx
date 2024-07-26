@@ -3,6 +3,8 @@ import { SECTIONS } from "../../utils/sections";
 import "./Navbar.css";
 
 const Navbar: React.FC = () => {
+	const iconsFolder = import.meta.env.VITE_ICONS_FOLDER;
+
 	const navigate = (section: string) => {
 		switch (section) {
 			case SECTIONS.ABOUT:
@@ -27,7 +29,7 @@ const Navbar: React.FC = () => {
 			<nav className="navbar scale__cursor">
 				<Link to="/">
 					<div className="navbar__logo">
-						<img src="/src/assets/icons/star.svg" alt="" />
+						<img src={`${iconsFolder}/star.svg`} alt="" />
 					</div>
 				</Link>
 				<button className="navbar__btn nav__cursor" onClick={() => navigate(SECTIONS.ABOUT)}>

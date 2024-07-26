@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import "./Cursor.css";
 
 const Cursor: React.FC = () => {
+	const iconsFolder = import.meta.env.VITE_ICONS_FOLDER;
 	const cursorRef = useRef<HTMLDivElement>(null);
 	const [iconCursor, setIconCursor] = useState<string | null>(null);
 
@@ -40,7 +41,6 @@ const Cursor: React.FC = () => {
 				}
 				targetElement = targetElement.parentElement as HTMLElement;
 			}
-			// Reset cursor if no relevant class is found
 			cursorRef.current!.style.transform = "translate(-50%, -50%) scale(1)";
 			setIconCursor(null);
 		};
@@ -71,7 +71,7 @@ const Cursor: React.FC = () => {
 		<div ref={cursorRef} className="cursor">
 			<div className="cursor__inner">
 				{iconCursor !== null ? (
-					<img src={`/src/assets/icons/${iconCursor}.svg`} alt={iconCursor} />
+					<img src={`${iconsFolder}/${iconCursor}.svg`} alt={iconCursor} />
 				) : null}
 				<div className="cursor__label">
 					{iconCursor === "arrow_link_gallery" ? "Ir a la galería" : null}
