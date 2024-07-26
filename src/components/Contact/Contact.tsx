@@ -122,7 +122,7 @@ const Contact: React.FC<ContactProps> = ({ data }) => {
 				<div className="social__button__email">
 					<span className="contact__email__label ">Si lo prefiere por correo electrónico.</span>
 					<a className="contact__email link__cursor" href="mailto:joaquinalbanesidev@gmail.com">
-						<img src="/public/icons/arrow_sub_right.svg" alt="arrow" />
+						<img src="/icons/arrow_sub_right.svg" alt="arrow" />
 						<span>JoaquinAlbanesiDev@gmail.com</span>
 					</a>
 				</div>
@@ -193,7 +193,7 @@ const SocialButton: React.FC<SocialButtonProps> = ({ data }) => {
 				<DynamicIcon iconName={data.icon}></DynamicIcon>
 			</div>
 			<div className="social__button__label">
-				<img src="/public/icons/arrow_sub_right.svg" alt="" />
+				<img src="/icons/arrow_sub_right.svg" alt="" />
 				<span>{data.label}</span>
 			</div>
 		</button>

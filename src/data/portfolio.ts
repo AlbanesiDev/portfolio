@@ -5,9 +5,9 @@ export const PORTFOLIO_DATA: IData = {
 		title: "desarrollador front-end",
 		name: "joaquin alejandro albanesi",
 		description: "",
-		img: "/public/img/profile.webp",
-		icon: "/public/icons/star.svg",
-		pdf_url: "/public/pdf/Joaquin_Albanesi_CV.pdf",
+		img: "/img/profile.webp",
+		icon: "/icons/star.svg",
+		pdf_url: "/pdf/Joaquin_Albanesi_CV.pdf",
 		list: [
 			{
 				title: "información personal",
@@ -79,7 +79,7 @@ export const PORTFOLIO_DATA: IData = {
 			],
 			img: [{ src: "", alt: "" }],
 			video_preview: {
-				cover: "/public/videos/projects/moneyManager/cover.webp",
+				cover: "/videos/projects/moneyManager/cover.webp",
 				src: "",
 				alt: "",
 			},
@@ -101,7 +101,7 @@ export const PORTFOLIO_DATA: IData = {
 			],
 			img: [{ src: "", alt: "" }],
 			video_preview: {
-				cover: "/public/videos/projects/hardStore/cover.webp",
+				cover: "/videos/projects/hardStore/cover.webp",
 				src: "",
 				alt: "",
 			},
@@ -142,7 +142,7 @@ export const PORTFOLIO_DATA: IData = {
 				},
 			],
 			video_preview: {
-				cover: "/public/videos/projects/hardStoreDashboard/cover.webp",
+				cover: "/videos/projects/hardStoreDashboard/cover.webp",
 				src: "",
 				alt: "",
 			},
@@ -178,24 +178,24 @@ export const PORTFOLIO_DATA: IData = {
 			],
 			img: [
 				{
-					src: "/public/img/projects/todayWeather/1.jpg",
+					src: "/img/projects/todayWeather/1.jpg",
 					alt: "",
 				},
 				{
-					src: "/public/img/projects/todayWeather/2.jpg",
+					src: "/img/projects/todayWeather/2.jpg",
 					alt: "",
 				},
 				{
-					src: "/public/img/projects/todayWeather/3.jpg",
+					src: "/img/projects/todayWeather/3.jpg",
 					alt: "",
 				},
 				{
-					src: "/public/img/projects/todayWeather/4.jpg",
+					src: "/img/projects/todayWeather/4.jpg",
 					alt: "",
 				},
 			],
 			video_preview: {
-				cover: "/public/videos/projects/todayWeather/cover.webp",
+				cover: "/videos/projects/todayWeather/cover.webp",
 				src: "",
 				alt: "",
 			},
