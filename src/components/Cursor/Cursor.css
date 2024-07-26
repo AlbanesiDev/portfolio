@@ -1,0 +1,27 @@
+.cursor {
+	position: fixed;
+	width: 2rem;
+	height: 2rem;
+	border-radius: 50%;
+	background-color: var(--color-primary);
+	mix-blend-mode: difference;
+	pointer-events: none;
+	transform: translate(-50%, -50%);
+	transition: transform 0.3s ease-in-out;
+	z-index: 1000;
+}
+
+.cursor__inner {
+	padding: 0.25rem;
+}
+
+.cursor__label {
+	position: absolute;
+	top: 50%;
+	left: 100%;
+	transform: translate(5%, -50%);
+	font-size: var(--fs-sm);
+	font-weight: 700;
+	text-transform: uppercase;
+	pointer-events: none;
+}

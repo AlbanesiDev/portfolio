@@ -1,0 +1,100 @@
+@layer orig {
+	:root {
+		--text-color: #111;
+		--bg-color: #b9b3a9;
+	}
+
+	.container section {
+		min-height: 100vh;
+		width: 100%;
+		max-width: 100vw;
+		overflow-x: hidden;
+		position: relative;
+	}
+
+	section:not(#gallery, .pin-wrap-sticky) {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+		grid-gap: 2rem;
+		margin: auto;
+		place-items: center;
+	}
+
+	#gallery {
+		height: 100vh;
+		display: flex;
+		background: var(--text-color);
+		color: var(--bg-color);
+		overflow: scroll;
+	}
+
+	.pin-wrap {
+		height: 100vh;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+	.pin-wrap > * {
+		min-width: 60vmax;
+	}
+
+	.container > p {
+		position: absolute;
+		bottom: 10vw;
+		right: 10vw;
+		width: 200px;
+		line-height: 1.5;
+	}
+}
+@supports (animation-timeline: view()) {
+	@keyframes move {
+		to {
+			/* Move horizontally so that right edge is aligned against the viewport */
+			transform: translateX(calc(-100% + 100vw));
+		}
+	}
+
+	#gallery {
+		/* Stretch it out, so that we create room for the horizontal scroll animation */
+		height: 500vh;
+		overflow: visible; /* To make position sticky work … */
+
+		view-timeline-name: --section-pin-tl;
+		view-timeline-axis: block;
+	}
+
+	.pin-wrap-sticky {
+		/* Stick to Top */
+		height: 100vh;
+		width: 100vw;
+		position: sticky;
+		top: 0;
+
+		width: 100vw;
+		overflow-x: hidden;
+	}
+
+	.pin-wrap {
+		height: 100vh;
+		width: 250vmax;
+
+		/* Hook animation */
+		will-change: transform;
+		animation: linear move forwards;
+
+		/* Link animation to view-timeline */
+		animation-timeline: --section-pin-tl;
+		animation-range: contain 0% contain 100%;
+	}
+}
+
+.c {
+	background-color: var(--color-tertiary);
+	width: 40rem;
+	height: 30rem;
+}
+
+.c:nth-child(2n) {
+	background-color: var(--color-primary);
+}

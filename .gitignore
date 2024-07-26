@@ -23,4 +23,7 @@ dist-ssr
 *.sln
 *.sw?
 
-data/portfolio.json
+src/assets/pdf/Joaquin_Albanesi_CV.pdf
+src/data/portfolio.ts
+
+.vercel

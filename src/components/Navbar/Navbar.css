@@ -1,0 +1,84 @@
+@keyframes navbar-size {
+	from {
+		font-size: var(--fs-lg);
+		padding-block: 2rem;
+	}
+	to {
+		font-size: var(--fs-md);
+		padding-block: 1rem;
+	}
+}
+
+@keyframes navbar-logo {
+	from {
+		width: 20%;
+	}
+	to {
+		width: 13%;
+	}
+}
+
+@keyframes rotate {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.navbar {
+	position: sticky;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--color-secondary);
+	border-bottom: var(--border);
+	z-index: 100;
+
+	.navbar__logo {
+		all: unset;
+		min-width: 3.5rem;
+		width: 20%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		animation: navbar-logo linear forwards;
+
+		img {
+			width: 100%;
+			border-radius: 50%;
+			animation: rotate 10s linear infinite;
+			padding: 1rem;
+		}
+	}
+
+	.navbar__btn {
+		background-color: transparent;
+		border: 0;
+		width: 100%;
+		height: 100%;
+		padding-block: 2rem;
+		color: var(--color-font-primary);
+		font-weight: 500;
+		font-size: var(--fs-lg);
+		text-transform: capitalize;
+		animation: navbar-size linear forwards;
+	}
+
+	.navbar__logo,
+	.navbar__btn {
+		animation-range: 0vh 100vh;
+		animation-timeline: scroll();
+	}
+
+	.navbar__btn:not(:first-child) {
+		border-left: var(--border);
+	}
+
+	.navbar__btn:hover {
+		background-color: var(--color-btn-hover);
+		color: var(--color-font-secondary);
+	}
+}

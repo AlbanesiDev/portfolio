@@ -1,0 +1,125 @@
+.projects__container {
+	display: flex;
+	flex-direction: column;
+	gap: 10rem;
+	margin-block: 10rem;
+}
+
+.project {
+	display: flex;
+	flex-direction: row;
+	gap: 3rem;
+}
+
+.project:nth-child(2n) {
+	flex-direction: row-reverse;
+}
+
+.project__title,
+.project__subtitle {
+	text-transform: capitalize;
+}
+
+.project__title {
+	font-size: var(--fs-lg);
+}
+
+.project__subtitle {
+	color: var(--color-tertiary);
+	font-size: var(--fs-md);
+	font-weight: 300;
+}
+
+.project__content {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.project__buttons {
+	display: flex;
+	gap: 1rem;
+	Button {
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+		padding: 0.75rem 1rem;
+		font-size: var(--fs-base);
+		.button__icon {
+			transition: var(--transition);
+			width: 1.5rem;
+			filter: var(--filter-primary);
+		}
+	}
+	Button:hover {
+		.button__icon {
+			filter: var(--filter-secondary);
+		}
+	}
+}
+
+.preview {
+	width: 50%;
+}
+
+.project__description {
+	font-size: var(--fs-base);
+}
+
+.project__stack {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+
+	.project__stack__item {
+		display: flex;
+		align-items: center;
+		gap: 0.25rem;
+		color: var(--color-tertiary);
+
+		.project__stack__icon {
+			/* filter: brightness(0) saturate(100%) invert(63%) sepia(0%) saturate(2%)
+        hue-rotate(134deg) brightness(95%) contrast(88%); */
+			width: 1.25rem;
+			height: 1.5rem;
+			filter: var(--filter-tertiary);
+		}
+
+		.project__stack__label {
+			font-size: var(--fs-md);
+			text-transform: capitalize;
+		}
+	}
+}
+
+.preview__content {
+	display: none;
+	margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 1250px) {
+	.projects__container {
+		gap: 5rem;
+		margin-block: 3rem;
+	}
+	.project {
+		flex-direction: column-reverse;
+	}
+	.project:nth-child(2n) {
+		flex-direction: column-reverse;
+	}
+	.project__content {
+		width: 100%;
+		gap: 1.5rem;
+	}
+	.preview {
+		width: 100%;
+	}
+	.preview__content {
+		display: block;
+	}
+	.project__title__container {
+		display: none;
+	}
+}

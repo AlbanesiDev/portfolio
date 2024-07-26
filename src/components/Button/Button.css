@@ -1,16 +1,16 @@
 .button {
-  background-color: transparent;
-  color: var(--color-font-primary);
-  font-weight: 700;
-  font-size: 1.25rem;
-  padding: 1rem 2rem;
-  border: var(--border);
-  transition: var(--transition);
-  cursor: pointer;
-  text-transform: capitalize;
+	background-color: transparent;
+	color: var(--color-font-primary);
+	font-weight: 700;
+	font-size: var(--fs-md);
+	padding: 1rem 2rem;
+	border: var(--border);
+	border-radius: var(--br-sm);
+	transition: var(--transition);
+	text-transform: capitalize;
 }
 
 .button:hover {
-  background-color: var(--color-btn-hover);
-  color: var(--color-font-secondary);
+	background-color: var(--color-btn-hover);
+	color: var(--color-font-secondary);
 }

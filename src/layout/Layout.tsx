@@ -1,17 +1,19 @@
-import { Footer, Navbar } from "../components";
+import { Outlet, ScrollRestoration } from "react-router-dom";
+import { Cursor, Footer, Navbar } from "../components";
+import { useIsMobile } from "../hooks";
 
-interface LayoutProps {
-  children: React.ReactNode;
-}
+const Layout: React.FC = () => {
+	const isMobile = useIsMobile();
 
-const Layout: React.FC<LayoutProps> = ({ children }) => {
-  return (
-    <>
-      <Navbar />
-      {children}
-      <Footer />
-    </>
-  );
+	return (
+		<>
+			<ScrollRestoration />
+			{!isMobile && <Cursor />}
+			<Navbar />
+			<Outlet />
+			<Footer />
+		</>
+	);
 };
 
-export { Layout };
+export default Layout;

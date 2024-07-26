@@ -1,13 +1,13 @@
-.title_container {
-  width: 100%;
+.title__container {
+	width: 100%;
 }
 
-.title_container .title {
-  text-align: center;
-  text-transform: uppercase;
-  border-bottom: var(--border);
-  padding: 3rem 0;
-  font-weight: 300;
-  font-size: 14vw;
-  line-height: 100%;
+.title__container .title {
+	text-align: center;
+	text-transform: uppercase;
+	border-bottom: var(--border);
+	padding: 3rem 0;
+	font-weight: 300;
+	font-size: 14vw;
+	line-height: 100%;
 }
