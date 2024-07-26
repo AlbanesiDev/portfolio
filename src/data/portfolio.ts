@@ -72,7 +72,7 @@ export const PORTFOLIO_DATA: IData = {
 			description:
 				"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates, minus explicabo non voluptate amet eos cupiditate numquam fuga quo accusantium in assumenda. Sint illo numquam inventore nihil modi rem tempora! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro quasi, consectetur a placeat sit, dolore cum hic voluptatum doloremque, deserunt ea officiis! Sint reiciendis quasi repellat, eum iusto nesciunt adipisci!",
 			stack: [
-				{ label: "react", icon: "React" },
+				{ label: "react", icon: "react" },
 				{ label: "typescript", icon: "typescript" },
 				{ label: "ant design", icon: "antdesign" },
 				{ label: "firebase", icon: "firebase" },
