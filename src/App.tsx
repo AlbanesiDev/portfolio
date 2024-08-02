@@ -6,7 +6,7 @@ import "./css/grid.css";
 function App() {
 	return (
 		<>
-			<RouterProvider router={router} />;
+			<RouterProvider router={router} />
 		</>
 	);
 }
