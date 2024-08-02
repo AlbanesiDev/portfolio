@@ -19,7 +19,7 @@ export interface IListSection {
 export interface IAboutMe {
 	title: string;
 	name: string;
-	description: string;
+	description: string[];
 	img: string;
 	icon: string;
 	pdf_url: string;
