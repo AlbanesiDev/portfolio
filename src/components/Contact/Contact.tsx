@@ -141,18 +141,19 @@ const Contact: React.FC<ContactProps> = ({ data }) => {
 							name="name"
 							type="text"
 							placeholder="Nombre*"
+							autoComplete="off"
 							value={formData.name}
 							onChange={handleChange}
 						/>
 						{errors.name && <small className="error">{errors.name}</small>}
 					</div>
-
 					<div>
 						<input
 							id="email"
 							name="email"
 							type="text"
 							placeholder="Correo electrónico*"
+							autoComplete="off"
 							value={formData.email}
 							onChange={handleChange}
 						/>

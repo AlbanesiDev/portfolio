@@ -5,5 +5,12 @@
 	p {
 		text-align: center;
 		font-size: var(--fs-md);
+		a {
+			color: var(--color-link);
+			text-decoration: none;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
 	}
 }

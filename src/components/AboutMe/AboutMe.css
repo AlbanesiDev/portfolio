@@ -7,10 +7,6 @@
 	}
 }
 
-.container {
-	margin-block: 10rem;
-}
-
 .about__container {
 	display: flex;
 	gap: 3rem;

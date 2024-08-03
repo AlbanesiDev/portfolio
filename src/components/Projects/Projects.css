@@ -33,6 +33,7 @@
 .project__content {
 	width: 50%;
 	display: flex;
+	gap: 1.5rem;
 	flex-direction: column;
 	justify-content: space-between;
 }
@@ -79,8 +80,6 @@
 		color: var(--color-tertiary);
 
 		.project__stack__icon {
-			/* filter: brightness(0) saturate(100%) invert(63%) sepia(0%) saturate(2%)
-        hue-rotate(134deg) brightness(95%) contrast(88%); */
 			width: 1.25rem;
 			height: 1.5rem;
 			filter: var(--filter-tertiary);

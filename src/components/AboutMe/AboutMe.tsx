@@ -27,19 +27,10 @@ const AboutMe: React.FC<AboutProps> = ({ data }) => {
 				</div>
 				<div className="about__description__container">
 					<p className="about__description">
-						{data.description} Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
-						neque! Quae doloremque inventore molestiae, est maiores fuga hic cum odio quos facere
-						magni. Architecto dolore quasi, et velit necessitatibus dolores.
+						{data.description[0]}
 						<br />
 						<br />
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore fuga ipsum, accusantium
-						tempora iste et asperiores, sapiente modi ab expedita, eligendi nam architecto. Optio
-						vitae reiciendis hic quidem tenetur nisi?
-						<br />
-						<br />
-						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium illo voluptas
-						cupiditate doloribus saepe dignissimos possimus vero soluta iure illum odio, velit
-						consectetur, provident id natus doloremque incidunt in ad?
+						{data.description[1]}
 					</p>
 					<Button className="button__cv link__cursor" onClick={handleDownload}>
 						Descargar CV

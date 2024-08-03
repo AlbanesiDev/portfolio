@@ -1,0 +1,19 @@
+.section__container,
+.home {
+	display: flex;
+	flex-direction: column;
+}
+
+.section__container {
+	gap: 5rem;
+}
+
+.home {
+	gap: 2rem;
+}
+
+@media screen and (max-width: 540px) {
+	.section__container {
+		gap: 2rem;
+	}
+}

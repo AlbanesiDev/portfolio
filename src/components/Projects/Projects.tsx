@@ -24,7 +24,7 @@ const Projects: React.FC<ProjectsProps> = ({ data }) => {
 	return (
 		<div className="container__wide projects__container ">
 			{data.map((project) => (
-				<div className="project reveal-animation" key={project.title}>
+				<div className="project " key={project.title}>
 					<div className="project__content">
 						<div className="project__title__container">
 							<h3 className="project__subtitle">{project.subtitle}</h3>
@@ -53,14 +53,16 @@ const Projects: React.FC<ProjectsProps> = ({ data }) => {
 							</Button>
 						</div>
 					</div>
-
-					<div className="preview gallery__cursor">
+					<div className="preview gallery__cursor reveal-animation">
 						<div className="preview__content">
 							<h3 className="project__subtitle">{project.subtitle}</h3>
 							<h2 className="project__title">{project.title}</h2>
 						</div>
-						<div onClick={() => handleNavigateRoute(project.title, project)}>
-							<VideoPreview data={project.video_preview} />
+						<div>
+							<VideoPreview
+								data={project.video_preview}
+								onClick={() => handleNavigateRoute(project.title, project)}
+							/>
 						</div>
 					</div>
 				</div>

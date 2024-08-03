@@ -6,7 +6,7 @@ export const PORTFOLIO_DATA: IData = {
 		name: "joaquin alejandro albanesi",
 		description: [
 			"Soy un desarrollador front-end con dos años de experiencia en el desarrollo de aplicaciones web. A lo largo de mi trayectoria, he trabajado en diversos proyectos que me han permitido perfeccionar mis habilidades tanto técnicas como personales. Me destaco por mi capacidad de planificación y organización, siempre asegurando que los proyectos sigan una estructura clara y eficiente.",
-			"Me considero un líder natural y resiliente, capaz de aprender rápidamente y adaptarme a nuevas situaciones. Tengo una gran atención al detalle, lo que me permite entregar un trabajo con un diseño impecable. Además, soy una persona resolutiva y con excelentes habilidades de comunicación, lo que me permite trabajar eficazmente tanto de manera individual como en equipo.",
+			"Me considero un profesional resiliente y adaptable, siempre dispuesto a aprender y enfrentar nuevos retos. Mi atención al detalle y mi compromiso con la excelencia garantizan resultados de alta calidad. Además, mis habilidades de comunicación y mi capacidad para trabajar tanto de manera autónoma como en equipo, me permiten contribuir significativamente al éxito de cualquier proyecto.",
 		],
 		img: "/img/profile.webp",
 		icon: "/icons/star.svg",
@@ -73,7 +73,7 @@ export const PORTFOLIO_DATA: IData = {
 			title: "money manager",
 			subtitle: "web app | 2024",
 			description:
-				"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates, minus explicabo non voluptate amet eos cupiditate numquam fuga quo accusantium in assumenda. Sint illo numquam inventore nihil modi rem tempora! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro quasi, consectetur a placeat sit, dolore cum hic voluptatum doloremque, deserunt ea officiis! Sint reiciendis quasi repellat, eum iusto nesciunt adipisci!. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates, minus explicabo non voluptate amet eos cupiditate numquam fuga quo accusantium in assumenda. Sint illo numquam inventore nihil modi rem tempora! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro quasi, consectetur a placeat sit, dolore cum hic voluptatum doloremque, deserunt ea officiis! Sint reiciendis quasi repellat, eum iusto nesciunt adipisci!. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates, minus explicabo non voluptate amet eos cupiditate numquam fuga quo accusantium in assumenda. Sint illo numquam inventore nihil modi rem tempora! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro quasi, consectetur a placeat sit, dolore cum hic voluptatum doloremque, deserunt ea officiis! Sint reiciendis quasi repellat, eum iusto nesciunt adipisci!",
+				"Money Manager es una aplicación minimalista y sencilla diseñada para ayudar a los usuarios a gestionar sus finanzas personales de manera eficiente. La aplicación permite a los usuarios agregar fácilmente sus ingresos y gastos, y seguir sus transacciones diarias y mensuales. Además, los usuarios pueden consultar sus registros financieros de meses anteriores y visualizar gráficos y estadísticas detalladas para un mejor entendimiento de sus hábitos de gasto e ingreso.",
 			stack: [
 				{ label: "react", icon: "react" },
 				{ label: "typescript", icon: "typescript" },
@@ -93,7 +93,7 @@ export const PORTFOLIO_DATA: IData = {
 			title: "hard store",
 			subtitle: "web app | 2024",
 			description:
-				"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates, minus explicabo non voluptate amet eos cupiditate numquam fuga quo accusantium in assumenda. Sint illo numquam inventore nihil modi rem tempora! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro quasi, consectetur a placeat sit, dolore cum hic voluptatum doloremque, deserunt ea officiis! Sint reiciendis quasi repellat, eum iusto nesciunt adipisci!",
+				"Hard Store E-commerce es una plataforma en línea desarrollada para la venta de hardware de PC, ofreciendo una experiencia completa para los entusiastas y profesionales del hardware. Los usuarios pueden registrarse, iniciar sesión de manera segura y guardar productos en su lista de favoritos. La tienda cuenta con un avanzado sistema de búsqueda y filtros que facilita encontrar componentes específicos rápidamente.",
 			stack: [
 				{ label: "angular", icon: "angular" },
 				{ label: "typescript", icon: "typescript" },
@@ -115,7 +115,7 @@ export const PORTFOLIO_DATA: IData = {
 			title: "hard store dashboard",
 			subtitle: "web app | 2024",
 			description:
-				"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates, minus explicabo non voluptate amet eos cupiditate numquam fuga quo accusantium in assumenda. Sint illo numquam inventore nihil modi rem tempora! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro quasi, consectetur a placeat sit, dolore cum hic voluptatum doloremque, deserunt ea officiis! Sint reiciendis quasi repellat, eum iusto nesciunt adipisci!. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates, minus explicabo non voluptate amet eos cupiditate numquam fuga quo accusantium in assumenda. Sint illo numquam inventore nihil modi rem tempora! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro quasi, consectetur a placeat sit, dolore cum hic voluptatum doloremque, deserunt ea officiis! Sint reiciendis quasi repellat, eum iusto nesciunt adipisci!. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates, minus explicabo non voluptate amet eos cupiditate numquam fuga quo accusantium in assumenda. Sint illo numquam inventore nihil modi rem tempora! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro quasi, consectetur a placeat sit, dolore cum hic voluptatum doloremque, deserunt ea officiis! Sint reiciendis quasi repellat, eum iusto nesciunt adipisci!Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates, minus explicabo non voluptate amet eos cupiditate numquam fuga quo accusantium in assumenda. Sint illo numquam inventore nihil modi rem tempora! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro quasi, consectetur a placeat sit, dolore cum hic voluptatum doloremque, deserunt ea officiis! Sint reiciendis quasi repellat, eum iusto nesciunt adipisci!. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates, minus explicabo non voluptate amet eos cupiditate numquam fuga quo accusantium in assumenda. Sint illo numquam inventore nihil modi rem tempora! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro quasi, consectetur a placeat sit, dolore cum hic voluptatum doloremque, deserunt ea officiis! Sint reiciendis quasi repellat, eum iusto nesciunt adipisci!. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates, minus explicabo non voluptate amet eos cupiditate numquam fuga quo accusantium in assumenda. Sint illo numquam inventore nihil modi rem tempora! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro quasi, consectetur a placeat sit, dolore cum hic voluptatum doloremque, deserunt ea officiis! Sint reiciendis quasi repellat, eum iusto nesciunt adipisci!",
+				"Hard Store Dashboard es la aplicación administrativa que gestiona y soporta la tienda en línea. Desarrollada para facilitar la administración y optimizar las operaciones, esta herramienta permite a los administradores agregar, actualizar y organizar el catálogo de productos, así como supervisar a los usuarios registrados y sus actividades. También se encarga de la gestión del personal administrativo, permitiendo un control de acceso basado en roles, y de la personalización y actualización de la página principal de la tienda. Por otro lado, la aplicación permite la gestión de pedidos para manejar y procesar los pedidos de los clientes de manera eficiente.",
 			stack: [
 				{
 					label: "angular",
@@ -156,7 +156,7 @@ export const PORTFOLIO_DATA: IData = {
 			title: "today weather",
 			subtitle: "web app | 2024",
 			description:
-				"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates, minus explicabo non voluptate amet eos cupiditate numquam fuga quo accusantium in assumenda. Sint illo numquam inventore nihil modi rem tempora! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro quasi, consectetur a placeat sit, dolore cum hic voluptatum doloremque, deserunt ea officiis! Sint reiciendis quasi repellat, eum iusto nesciunt adipisci!",
+				"Today Weather es una aplicación meticulosamente diseñada para brindar información meteorológica precisa y detallada en tiempo real. Te permite acceder a una amplia gama de datos climáticos esenciales, desde la temperatura actual hasta la calidad del aire, con una interfaz intuitiva y funciones personalizables.",
 			stack: [
 				{
 					label: "angular",

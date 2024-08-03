@@ -9,7 +9,6 @@ interface SkillProps {
 const Skills: React.FC<SkillProps> = ({ data }) => {
 	return (
 		<div className="container reveal-animation">
-			<h3 className="skill__title">habilidades</h3>
 			<div className="skill__container">
 				{data.map((item) => (
 					<div className="skill__item scale__cursor" key={item.label}>
