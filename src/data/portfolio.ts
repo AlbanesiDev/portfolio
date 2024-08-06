@@ -5,7 +5,7 @@ export const PORTFOLIO_DATA: IData = {
 		title: "desarrollador front-end",
 		name: "joaquin alejandro albanesi",
 		description: [
-			"Soy un desarrollador front-end con dos años de experiencia en el desarrollo de aplicaciones web. A lo largo de mi trayectoria, he trabajado en diversos proyectos que me han permitido perfeccionar mis habilidades tanto técnicas como personales. Me destaco por mi capacidad de planificación y organización, siempre asegurando que los proyectos sigan una estructura clara y eficiente.",
+			"Tengo dos años de experiencia en el desarrollo de aplicaciones web y a lo largo de mi trayectoria, he trabajado en diversos proyectos que me han permitido perfeccionar mis habilidades tanto técnicas como personales. Me destaco por mi capacidad de planificación y organización, siempre asegurando que los proyectos sigan una estructura clara y eficiente.",
 			"Me considero un profesional resiliente y adaptable, siempre dispuesto a aprender y enfrentar nuevos retos. Mi atención al detalle y mi compromiso con la excelencia garantizan resultados de alta calidad. Además, mis habilidades de comunicación y mi capacidad para trabajar tanto de manera autónoma como en equipo, me permiten contribuir significativamente al éxito de cualquier proyecto.",
 		],
 		img: "/img/profile.webp",
